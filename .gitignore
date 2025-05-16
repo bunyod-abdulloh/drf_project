@@ -4,5 +4,4 @@ __pycache__/
 *.log
 .env
 venv/
-*.sqlite3
 .idea/
