@@ -22,7 +22,7 @@ ALLOWED_HOSTS = ['web-production-2f0cb.up.railway.app', '127.0.0.1', 'localhost'
 
 INSTALLED_APPS = [
     # Django
-    'django.contrib.sites',  # <-- bu kerak!
+    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
