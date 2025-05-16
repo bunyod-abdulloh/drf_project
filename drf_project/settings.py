@@ -1,9 +1,6 @@
 import os
 from pathlib import Path
 
-from django.conf import STATICFILES_STORAGE_ALIAS
-from django.conf.global_settings import STATIC_ROOT
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -147,3 +144,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # yangi qo'shildi
 
 SITE_ID = 1  # yangi qo'shildi
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-2f0cb.up.railway.app",
+]
