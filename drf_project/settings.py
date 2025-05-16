@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
 ]
 
-ROOT_URLCONF = 'library_project.urls'
+ROOT_URLCONF = 'drf_project.urls'
 
 REST_FRAMEWORK = {
     # Avto-ruxsat klasslari
@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'library_project.wsgi.application'
+WSGI_APPLICATION = 'drf_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
